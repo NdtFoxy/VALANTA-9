@@ -211,7 +211,8 @@ li{
 .a-1:hover{
     transform: scale(1.2);
     transition: 1s;
-    text-decoration:underline red solid 2px;
+    border-bottom: 4px solid red;
+    height: 36px;
 }
 li{
     display: flex;
@@ -228,7 +229,8 @@ li{
     font-size: 18px;
     font-weight: 500;
     transform: scale(1.2);
-    text-decoration:underline red solid 2px;
+    border-bottom: 4px solid red;
+    height: 36px;
 }
 
 .inf{
@@ -355,6 +357,7 @@ li{
 .bt-2:hover{
     transform: scale(0.96);
     transition: 0.3s;
+    box-shadow: 0 0 10px #DD4053, 0 0 20px #DD4053, 0 0 40px #DD4053;
 }
 
 .bt-2:active{
